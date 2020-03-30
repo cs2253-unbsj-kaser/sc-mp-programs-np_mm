@@ -6,7 +6,7 @@
 		LDX	= 	Loop-Head-1 ; offset for load
 		STX	=	Last-Store-1	; offset for store
 		;
-			= 0F12
+			.= 0F12
 Head:		LDI	LDX
 		XAE
 Loop:		LD	-128(O)		;PC-relative-ext=offset
