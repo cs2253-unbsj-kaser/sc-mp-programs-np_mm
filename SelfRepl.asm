@@ -22,6 +22,6 @@ Store:		ST	-128(O)		;ditto
 		LDE	
 		XRI	Last-Loop-1	;finished ?
 		JNZ	Loop
-		DLY	X’FF		;shows how many copies
+		DLY	X'FF		;shows how many copies
 Last		=			;were executed
 		.END
