@@ -14,13 +14,13 @@ Tape		LDI  H(Disp)
 		XPAH	2
 		LDI	L(Text)-8
 		XPAL	2
-		LDI	X’CO	; Determines sweep speed
+		LDI	X'CO	; Determines sweep speed
 		ST 	Speed
 Again:		LDI	7
 Loop		XAE
 		LD	-128(2)
 		ST	-128(1)
-		LDI	X’FF
+		LDI	X'FF
 		CCL
 		ADE		;i.e. decrement ext
 		JP	Loop
