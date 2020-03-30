@@ -13,7 +13,7 @@ New:		LDI	L(Disp)
 		XPAL	1
 		LDI	08
 		ST	Count		;key row
-Again		LD	@+1(1)
+Again:		LD	@+1(1)
 		XRI	OFF	; Key pressed?
 		JZ	No
 		DLY	00	;Delay with AC = key
