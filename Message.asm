@@ -27,7 +27,7 @@ Loop		XAE
 		DLD	Speed
 		JNZ	Again
 		LD	@-1(2)	;Move letters
-		JP	Move	:x’80 = end of text
+		JP	Move	;x’80 = end of text
 		JMP	Go
 ;
 Disp		=	0D00
