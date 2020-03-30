@@ -14,7 +14,7 @@ Adl		= 	12
 Adh		=	14
 Dispa		=	015A		; Address to segments’
 ;
-		= 0F20
+		.= 0F20
 Begin		LDI	H(Dispa)
 		XPAH	3
 		LDI	L(Disp)
