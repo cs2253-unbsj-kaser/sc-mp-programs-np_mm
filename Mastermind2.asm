@@ -20,7 +20,7 @@ Start:	 LDI	 0
 	 ST	 ADL
 	 ST	 ADH
 	 XPAL	 2
-	 LDI	 OF
+	 LDI	 0F
 	 XPAH	 2
 	  
 	 LDI	 H(Crom)
