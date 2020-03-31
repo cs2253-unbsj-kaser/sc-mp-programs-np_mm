@@ -15,7 +15,7 @@ Next	 =	 17
 Key	 =	 20
 	.EXTERN  Nchar
 	.EXTERN  fBobul
-
+.=0F1C
 Start:	 LDI	 0
 	 ST	 ADL
 	 ST	 ADH
