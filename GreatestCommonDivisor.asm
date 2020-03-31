@@ -40,6 +40,7 @@
                 ST      AH(2)
                 XAE
                 ST      BH(2)
+                LDE
                 OR      AL(2)     ;OR with new AL(2)
                 JNZ     GCD       ;Not finished yet
                 XPPC    3         ;Return
