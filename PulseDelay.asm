@@ -6,7 +6,7 @@
                 ;
     Enter:  LDI     H(Scrat)
             XPAH    1
-            LDIL    (Scrat)
+            LDI     L(Scrat)
     Next:   XPAL    1
             LDI     8
             ST      Bits
