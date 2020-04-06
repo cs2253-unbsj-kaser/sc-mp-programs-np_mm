@@ -3,7 +3,7 @@ Disp	=	0D00
 	.=0F0F
 Row:	.=.+1
 Count:	.=.+1
-Sum	.=.+1
+Sum:	.=.+1
 	.EXTERN Ndig
 
 Shoot:	LDI	H(Disp)
